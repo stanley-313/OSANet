@@ -1,19 +1,19 @@
 # Omni Spatial-Angular Correlations Exploration for Light Field Image Super-Resolution
 ***
 ![](/figs/network.png)
-This is the Pytorch implementation of the LF image spatial SR method in 
+**This is the Pytorch implementation of the LF image spatial SR method in 
 our paper "Omni Spatial-Angular Correlations Exploration for Light Field Image Super-Resolution".
-Please refer to our [paper]() for details.
+Please refer to our [paper]() for details.**
 
 ## Preparation:
 ***
 
-1. Requirement:
+1. **Requirement:**
    - pytorch = 1.12.1, torchvision = 0.13.1, python = 3.8
-2. Datasets:
+2. **Datasets:**
    - We use five LF benchmarks in [BasicLFSR](https://github.com/ZhengyuLiang24/BasicLFSR)
    (i.e., EPFL, HCInew, HCIold, INRIA, and STFgantry). Download and put them in folder `./datasets/`.
-3. Generate training and testing data:
+3. **Generate training and testing data:**
    - Run `Generate_Data_for_Training.py` to generate training data in `./data_for_training/`.
    - Run `Generate_Data_for_Test.py` to generate testing data in `./data_for_test/`.
    
@@ -41,7 +41,7 @@ If you find this work helpful, please consider citing:
 @inproceedings{OSAnet,
     author    = {Xia, Wang and Lu, Yao and Wang, Shunzhou and Wang, Wenjing and Wang, Ziqi and Xia, Peiqi},
     title     = {Omni Spatial-Angular Correlations Exploration for Light Field Image Super-Resolution},
-    booktitle = {International Conference on Multimedia & Expo (ICME)},
+    booktitle = {2024 IEEE International Conference on Multimedia & Expo (ICME)},
     year      = {2024}
 } 
 ```
